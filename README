@@ -40,15 +40,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack pan-0.127-X-src.tar.bz2
+  unpack pan-0.128-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./pan-0.127-X.cygport all
+  cygport ./pan-0.128-X.cygport all
 
 This will create:
-  /usr/src/pan-0.127-X-src.tar.bz2
-  /usr/src/pan-0.127-X.tar.bz2
+  /usr/src/pan-0.128-X-src.tar.bz2
+  /usr/src/pan-0.128-X.tar.bz2
 
 -------------------------------------------
 
@@ -56,14 +56,14 @@ Files included in the binary package:
 
   /usr/bin/pan.exe
   /usr/share/applications/pan.desktop
-  /usr/share/doc/Cygwin/pan-0.127.README
-  /usr/share/doc/pan-0.127/AUTHORS
-  /usr/share/doc/pan-0.127/COPYING
-  /usr/share/doc/pan-0.127/ChangeLog
-  /usr/share/doc/pan-0.127/INSTALL
-  /usr/share/doc/pan-0.127/NEWS
-  /usr/share/doc/pan-0.127/README
-  /usr/share/doc/pan-0.127/TODO
+  /usr/share/doc/Cygwin/pan-0.128.README
+  /usr/share/doc/pan-0.128/AUTHORS
+  /usr/share/doc/pan-0.128/COPYING
+  /usr/share/doc/pan-0.128/ChangeLog
+  /usr/share/doc/pan-0.128/INSTALL
+  /usr/share/doc/pan-0.128/NEWS
+  /usr/share/doc/pan-0.128/README
+  /usr/share/doc/pan-0.128/TODO
   /usr/share/locale/am/LC_MESSAGES/pan.mo
   /usr/share/locale/ar/LC_MESSAGES/pan.mo
   /usr/share/locale/az/LC_MESSAGES/pan.mo
@@ -112,6 +112,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.128-1 -----
+Version bump.
 
 ----- version 0.127-1 -----
 Version bump.
