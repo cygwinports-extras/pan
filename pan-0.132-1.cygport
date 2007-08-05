@@ -1,0 +1,9 @@
+inherit gnome2
+
+DESCRIPTION="GNOME newsgroup reader"
+HOMEPAGE="http://pan.rebelbase.com/"
+SRC_URI=http://pan.rebelbase.com/download/releases/${PV}/source/${P}.tar.bz2
+
+DIFF_EXCLUDES="README.windows pan.spec"
+
+CYGCONF_ARGS="--with-gtkspell --disable-glibtest --disable-gtktest"
