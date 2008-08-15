@@ -1,0 +1,10 @@
+--- origsrc/pan-0.133/pan/usenet-utils/Makefile.am	2007-08-01 11:59:59.000000000 -0500
++++ src/pan-0.133/pan/usenet-utils/Makefile.am	2008-08-14 03:24:08.645115800 -0500
+@@ -27,7 +27,6 @@
+  gnksa-test \
+  message-check-test \
+  numbers-test \
+- scorefile-test \
+  text-massager-test \
+  url-find-test
+ 

@@ -6,16 +6,17 @@ multiserver. It's also the only Unix newsreader to get a perfect score
 on the Good Net-Keeping Seal of Approval evaluations.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gmime2-2.2.9-1
-  gtk2-x11-2.10.14-1
-  gtkspell-2.0.11-3
-  libgetaddrinfo0-1.6.3-2
+  cygwin-1.5.25-15
+  gdk-pixbuf2-2.12.11-1
+  glib2-2.16.4-1
+  gmime2-2.2.21-1
+  gtk2-x11-2.12.11-1
+  gtkspell-2.0.13-1
+  libgetaddrinfo0-1.6.3-3
+  libiconv2-1.11-1
   libintl8-0.15-1
-  libpcre0-7.2-1
-  pango-1.16.5-1
+  libpcre0-7.7-2
+  pango-1.20.5-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -40,15 +41,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack pan-0.132-X-src.tar.bz2
+  unpack pan-0.133-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./pan-0.132-X.cygport all
+  cygport ./pan-0.133-X.cygport all
 
 This will create:
-  /usr/src/pan-0.132-X-src.tar.bz2
-  /usr/src/pan-0.132-X.tar.bz2
+  /usr/src/pan-0.133-X-src.tar.bz2
+  /usr/src/pan-0.133-X.tar.bz2
 
 -------------------------------------------
 
@@ -56,14 +57,13 @@ Files included in the binary package:
 
   /usr/bin/pan.exe
   /usr/share/applications/pan.desktop
-  /usr/share/doc/Cygwin/pan-0.132.README
-  /usr/share/doc/pan-0.132/AUTHORS
-  /usr/share/doc/pan-0.132/COPYING
-  /usr/share/doc/pan-0.132/ChangeLog
-  /usr/share/doc/pan-0.132/INSTALL
-  /usr/share/doc/pan-0.132/NEWS
-  /usr/share/doc/pan-0.132/README
-  /usr/share/doc/pan-0.132/TODO
+  /usr/share/doc/pan-0.133/AUTHORS
+  /usr/share/doc/pan-0.133/COPYING
+  /usr/share/doc/pan-0.133/ChangeLog
+  /usr/share/doc/pan-0.133/INSTALL
+  /usr/share/doc/pan-0.133/NEWS
+  /usr/share/doc/pan-0.133/README
+  /usr/share/doc/pan-0.133/TODO
   /usr/share/locale/am/LC_MESSAGES/pan.mo
   /usr/share/locale/ar/LC_MESSAGES/pan.mo
   /usr/share/locale/az/LC_MESSAGES/pan.mo
@@ -72,6 +72,7 @@ Files included in the binary package:
   /usr/share/locale/cs/LC_MESSAGES/pan.mo
   /usr/share/locale/da/LC_MESSAGES/pan.mo
   /usr/share/locale/de/LC_MESSAGES/pan.mo
+  /usr/share/locale/dz/LC_MESSAGES/pan.mo
   /usr/share/locale/el/LC_MESSAGES/pan.mo
   /usr/share/locale/en_CA/LC_MESSAGES/pan.mo
   /usr/share/locale/en_GB/LC_MESSAGES/pan.mo
@@ -91,6 +92,7 @@ Files included in the binary package:
   /usr/share/locale/ms/LC_MESSAGES/pan.mo
   /usr/share/locale/nb/LC_MESSAGES/pan.mo
   /usr/share/locale/nl/LC_MESSAGES/pan.mo
+  /usr/share/locale/oc/LC_MESSAGES/pan.mo
   /usr/share/locale/pl/LC_MESSAGES/pan.mo
   /usr/share/locale/pt/LC_MESSAGES/pan.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/pan.mo
@@ -112,6 +114,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.133-1 -----
+Version bump.
 
 ----- version 0.132-1 -----
 Version bump.
