@@ -1,5 +1,5 @@
-category: Gnome Mail Net
-requires: gdk-pixbuf2 glib2 gmime2 gtk2-x11 gtkspell libgetaddrinfo0 libiconv2 libintl8 libpcre0 pango
+category: Gnome Mail
+requires: libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgmime2.0_2 libgtk2.0_0 libgtkspell0 libiconv2 libintl8 libpango1.0_0 libpcre0 libstdc++6
 sdesc: "GNOME newsgroup reader"
 ldesc: "Pan is a Usenet newsreader that's good at both text and 
 binaries. It supports offline reading, scoring and killfiles, yEnc, NZB, 

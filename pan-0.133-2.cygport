@@ -4,11 +4,10 @@ DESCRIPTION="GNOME newsgroup reader"
 HOMEPAGE="http://pan.rebelbase.com/"
 SRC_URI="http://pan.rebelbase.com/download/releases/${PV}/source/${P}.tar.bz2"
 PATCH_URI="
-	0.133-ipv6.patch
+	mirror://portage/net-nntp/${PN}/files/${P}-gcc44.patch
 	0.133-x11.patch
-	0.133-tests.patch
 "
 
 DIFF_EXCLUDES="README.windows pan.spec"
 
-CYGCONF_ARGS="--with-gtkspell --disable-glibtest --disable-gtktest"
+CYGCONF_ARGS="--with-gtkspell"
