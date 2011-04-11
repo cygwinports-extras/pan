@@ -3,10 +3,7 @@ inherit gnome2
 DESCRIPTION="GNOME newsgroup reader"
 HOMEPAGE="http://pan.rebelbase.com/"
 SRC_URI="http://pan.rebelbase.com/download/releases/${PV}/source/${P}.tar.bz2"
-PATCH_URI="
-	mirror://portage/net-nntp/${PN}/files/${P}-gcc44.patch
-	0.133-x11.patch
-"
+PATCH_URI="0.134-cygwin-x11.patch"
 
 DIFF_EXCLUDES="README.windows pan.spec"
 
