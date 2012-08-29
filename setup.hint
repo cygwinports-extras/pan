@@ -1,7 +1,0 @@
-category: Gnome Mail
-requires: libcairo2 libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgmime2.6_0 libgtk2.0_0 libgtkspell0 libintl8 libpango1.0_0 libstdc++6
-sdesc: "GNOME newsgroup reader"
-ldesc: "Pan is a Usenet newsreader that's good at both text and 
-binaries. It supports offline reading, scoring and killfiles, yEnc, NZB, 
-and multiserver. It's also the only Unix newsreader to get a perfect 
-score on the Good Net-Keeping Seal of Approval evaluations."
