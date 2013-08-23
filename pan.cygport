@@ -1,5 +1,8 @@
 inherit gnome2
 
+NAME="pan"
+VERSION=0.139
+RELEASE=1
 CATEGORY="Mail"
 SUMMARY="GNOME newsgroup reader"
 DESCRIPTION="Pan is a Usenet newsreader that's good at both text and binaries.
@@ -7,7 +10,7 @@ It supports offline reading, scoring and killfiles, yEnc, NZB, and multiserver.
 It's also the only Unix newsreader to get a perfect score on the Good
 Net-Keeping Seal of Approval evaluations."
 HOMEPAGE="http://pan.rebelbase.com/"
-SRC_URI="http://pan.rebelbase.com/download/releases/${PV}/source/${P}.tar.bz2"
+SRC_URI="http://pan.rebelbase.com/download/releases/${VERSION}/source/pan-${VERSION}.tar.bz2"
 PATCH_URI="0.134-cygwin-x11.patch"
 
 DIFF_EXCLUDES="README.windows pan.spec"
